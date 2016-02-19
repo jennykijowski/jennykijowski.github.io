@@ -1,0 +1,38 @@
+body {
+	background-color: #A0E8E1;
+	background: url(../images/IMG_1687.jpg);
+	background-size: cover;
+	text-align: center;
+	font-family: "Helvetica", sans serif;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 36px;
+}
+#slogan {
+	font-family: "Playfair Display", serif;
+	font-size: 28px;
+	color: #E8CB1F;
+}
+h1, p {color: white;
+}
+hr {
+	color: white;
+	background-color: white;
+	border-color: white;
+	border-top-color: white;
+	width: 400px;
+	height: 1px;
+}
+li {
+	color: white;
+}
+div {
+	width: 900px;
+	background-color: rgba(117,127,111,.5);
+	margin: auto;
+	padding: 20px;
+}
+a {
+	color: #FF20C5;
+}
