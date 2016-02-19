@@ -26,6 +26,7 @@ hr {
 }
 li {
 	color: white;
+	list-style-type: none;
 }
 div {
 	width: 900px;
