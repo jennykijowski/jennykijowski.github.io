@@ -2,73 +2,113 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
 
+body {
+	background-color: white;
+	/*background: url(../images/IMG_1687.jpg);
+	background-size: cover;*/
+	text-align: center;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 16px; /*1em = 16px*/
+	font-color: #404A4A;
+}
+
+a {
+	color: white;
+}
+
+.wrapper /*remove later */{
+	background-color: #FFE2B8; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+}
+
 header {
 	font: white;
-	background-color: rgba(122,213,236,.75);
+	/*background-color: rgba(122,213,236,.75);*/
+	background-color: #FFED74; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
 	padding: 1px;
 	margin: 0px;
-	width: auto;
+	width: 0 auto;
 }
 
 #title {
 	font-family: 'Great Vibes', sans-serif;
 	font-size: 64px;
 	color: white;
-	border-bottom: 4px solid white;
 	display: inline-block;
-}
-
-nav {
-	font: white;
-	font-size: 1em;
-}
-
-body {
-	background-color: #A0E8E1;
-	background: url(../images/IMG_1687.jpg);
-	background-size: cover;
-	text-align: center;
-	font-family: "Helvetica", sans-serif;
-	font-size: 16px; /*1em = 16px*/
 }
 
 hr {
 	color: white;
 	background-color: white;
 	border-color: white;
-	border-top-color: white;
+	border: white;
 	width: 400px;
 	height: 1px;
+	padding: 0;
+	margin: 0 auto;
+	text-align:center;
 }
 
 #slogan {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
-	color: #E8CB1F;
+	font-size: 1.5em;
+	color: #CFC75E;
 }
 
-p, li {
-	color: white;
+nav {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
+	color: white;
+	font-size: 1.5em;
+	background-color: #E8C66A; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+}
+
+#aboutleft {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	color: white;
+	/*background-color: #9C385B;*/
+	background-color: #FFE2B8; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+}
+
+#about {
+	font-family: 'Great Vibes', sans-serif;
+	font-size: 3em;
+	color: white;
+	display: inline-block;
+}
+
+#aboutright {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	color: white;
+	/*background-color: #824258;*/
+	background-color: #FFE2B8; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
 }
 
 li {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
 	list-style-type: none;
 }
 
-div {
-	width: 200px;
-	background-color: #E8CB1F;
-	margin: auto;
-	padding: 10px;
-}
-
-a {
-	color: #E8CB1F;
-}
-
 footer {
-	font-size: .5em;
+	font-size: 1em;
 	padding: 1em 0;
+	/*background-color: #C2B618;*/
+	background-color: #FF957E; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+}
+
+#contact {
+	color: #404A4A;
 }
