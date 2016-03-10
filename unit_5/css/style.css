@@ -28,7 +28,7 @@ header {
 	background-color: #FFED74; /*remove later*/
 	border: 1px black solid; /*remove later*/
 	padding: 20px; /*remove later*/
-	padding: 1px;
+	/*padding: 1px;*/
 	margin: 0px;
 	width: 0 auto;
 }
