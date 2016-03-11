@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	/*background: url(../images/IMG_1687.jpg);
+	background-size: cover;*/
+	text-align: center;
+	font-family: 'Amatic SC', Helvetica, cursive;
+	font-size: 21px; /*1em = 21px*/
+	font-color: #404A4A;
+}
+
+a {
+	color: rgb(122,213,236);
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CFC55E;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+nav a:hover {
+	color: #CFC55E;
+}
+
+h1,h2,h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+.wrapper /*remove later */{
+	background-color: #FFE2B8; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+}
+
+header {
+	font: white;
+	/*background-color: rgba(122,213,236,.75);*/
+	background-color: #FFED74; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+	/*padding: 1px;*/
+	margin: 0px;
+	width: 0 auto;
+}
+
+#title {
+	color: white;
+	display: inline-block;
+	font-size: 3em;
+}
+
+hr {
+	color: white;
+	background-color: white;
+	border-color: white;
+	border: white;
+	width: 400px;
+	height: 1px;
+	padding: 0;
+	margin: 0 auto;
+	text-align:center;
+}
+
+#slogan {
+	font-size: 2em;
+	color: #CFC75E;
+}
+
+nav {
+	color: white;
+	font-size: 2em;
+	background-color: #E8C66A; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#aboutleft {
+	font-size: 1.5em;
+	color: white;
+	/*background-color: #9C385B;*/
+	background-color: #E582A2; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+	float: left;
+	width: 50%;
+}
+
+#about {
+	color: white;
+	display: inline-block;
+}
+
+#aboutright {
+	font-size: 1.5em;
+	color: white;
+	/*background-color: #824258;*/
+	background-color: #E55B88; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+	float: right;
+	width: 50%;
+}
+
+li {
+	font-size: 1em;
+	list-style-type: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+footer {
+	font-size: 1em;
+	padding: 1em 0;
+	/*background-color: #C2B618;*/
+	background-color: #FF957E; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+	clear: both;
+}
+
+#contact {
+	color: #404A4A;
+}
