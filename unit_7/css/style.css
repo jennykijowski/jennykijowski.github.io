@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
+/*palette
+bluegreen: 23A59B
+blue header: rgba(122,213,236,.75);
+orange: E76227
+green: 798E0F;
+brown: A68F7D
+grey: ACB1B5*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	/*background: url(../images/IMG_1687.jpg);
+	background-size: cover;*/
+	text-align: center;
+	font-family: 'Amatic SC', Helvetica, cursive;
+	font-size: 21px; /*1em = 21px*/
+	font-color: #404A4A;
+}
+
+a {
+	color: rgb(122,213,236);
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CFC55E;
+}
+
+h1,h2,h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+header {
+	font: white;
+	background-color: rgba(122,213,236,.75);
+	padding: 20px;
+	margin: 0px;
+	width: 0 auto;
+}
+
+#title {
+	color: white;
+	display: inline-block;
+	font-size: 3em;
+}
+
+hr {
+	color: white;
+	background-color: white;
+	border-color: white;
+	border: white;
+	width: 400px;
+	height: 1px;
+	padding: 0;
+	margin: 20px auto;
+	text-align: center;
+}
+
+#slogan {
+	font-size: 2em;
+	color: #A68F7D;
+}
+
+nav {
+	font-family: 'Montserrat', sans-serif;
+	color: #CC6E3A;
+	font-size: 1em;
+	padding: 20px;
+}
+
+nav a {
+	color: #E76227;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+nav a:hover {
+	color: #CC8C68;
+}
+
+#two_column {
+	background-color: #E582A2;
+}
+
+#aboutleft {
+	font-size: 1.5em;
+	color: white;
+	background-color: #E582A2;
+	padding: 20px;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+
+#about {
+	display: inline-block;
+}
+
+#aboutright {
+	font-size: 1.5em;
+	color: white;
+	background-color: #E55B88;
+	padding: 20px;
+	float: right;
+	width: 50%;
+}
+
+li {
+	font-size: 1em;
+	list-style-type: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+footer {
+	font-size: 1em;
+	padding: 1em 0;
+	background-color: #A68F7D;
+	padding: 20px;
+	clear: both;
+}
+
+#contact {
+	color: #404A4A;
+}
