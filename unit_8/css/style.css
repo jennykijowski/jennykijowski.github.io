@@ -110,7 +110,46 @@ nav a:hover {
 	display: none;
 }
 
-#two_column {
+#rainbow_dragon_image {
+	float: left;
+	width: 25%;
+}
+
+#rainbow_dragon_title {
+	float: right;
+	width: 75%;
+	vertical-align: middle;
+	background-color: #FFF67B;
+	color: #A68F7D;
+}
+
+#inventor_image {
+	float: left;
+	width: 25%;
+}
+
+#inventor_title {
+	float: right;
+	width: 75%;
+	vertical-align: middle;
+	background-color: #4E9F8C;
+	color: white;
+}
+
+#hippo_image {
+	float: left;
+	width: 25%;
+}
+
+#hippo_title {
+	float: right;
+	width: 75%;
+	vertical-align: middle;
+	background-color: #A68F7D;
+	color: white;
+}
+
+#about {
 	background-color: #E582A2;
 }
 
@@ -190,7 +229,7 @@ footer {
 		float: none;
 		width: 100%;
 	}
-	nav a {
+	nav a, #hero, #about {
 		display: none;
 	}
 	#mobile {
