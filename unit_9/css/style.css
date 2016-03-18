@@ -1,0 +1,269 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
+/*palette
+bluegreen: 23A59B
+blue header: rgba(122,213,236,.75);
+orange: E76227
+green: 798E0F;
+brown: A68F7D
+grey: ACB1B5*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	text-align: left;
+	font-family: 'Amatic SC', Helvetica, cursive;
+	font-size: 21px; /*1em = 21px*/
+	font-color: #404A4A;
+}
+
+a {
+	color: rgb(122,213,236);
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CFC55E;
+}
+
+h1,h2,h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+header {
+	font: white;
+	background-color: rgba(122,213,236,.75);
+	padding-top: 1em;
+	padding-bottom: .5em;
+	margin: 0px;
+	width: 0 auto;
+	text-align: center;
+}
+
+#title {
+	color: white;
+	display: inline-block;
+	font-size: 3em;
+}
+
+hr {
+	color: white;
+	background-color: white;
+	border-color: white;
+	border: white;
+	width: 19em;
+	height: 1px;
+	padding: 0;
+	margin: 1em auto;
+	text-align: center;
+}
+
+#slogan {
+	font-size: 2em;
+	color: #A68F7D;
+	padding-bottom: .25em;
+}
+
+nav {
+	font-family: 'Montserrat', sans-serif;
+	color: #CC6E3A;
+	font-size: 1em;
+	display: inline;
+}
+
+nav a {
+	color: #E76227;
+	text-decoration: none;
+	display: inline-block;
+	margin: .5em 1em;
+}
+
+nav a:hover {
+	color: white;
+}
+
+/*#hero {
+	background: url(..images/scooterboys.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+}*/
+
+#mobile {
+	display: none;
+}
+
+#rainbow_dragon {
+/*	background-color: #e69138;*/
+	background-color: #79567F;
+	color: white;
+	position:relative;
+}
+
+#rainbow_dragon h3 {
+	position:absolute;
+	top:50%;
+	left:64%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+}
+
+#rainbow_dragon img {
+	float: left;
+	width: 25%;
+}
+
+#inventor {
+	background-color: #4E9F8C;
+	color: white;
+	position:relative;
+}
+
+#inventor h3 {
+	position:absolute;
+	top:50%;
+	left:64%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+}
+
+#inventor img {
+	float: left;
+	width: 25%;
+}
+
+#hippo {
+	background-color: #A68F7D;
+	color: white;
+	position: relative;
+}
+
+#hippo h3 {
+	position:absolute;
+	top:50%;
+	left:64%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+}
+
+#hippo img {
+	float: left;
+	width: 25%;
+}
+
+#about {
+	background-color: #E582A2;
+}
+
+#aboutleft {
+	font-size: 1.5em;
+	color: white;
+	background-color: #E582A2;
+	padding: 1em;
+	float: left;
+	width: 50%;
+}
+
+#about {
+	display: inline-block;
+}
+
+#aboutright {
+	font-size: 1.5em;
+	color: white;
+	background-color: #E55B88;
+	padding: 1em;
+	float: right;
+	width: 50%;
+}
+
+li {
+	font-size: 1em;
+	list-style-type: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+footer {
+	color: black;
+	font-size: 1em;
+	padding: 1em 0;
+	background-color: rgba(122,213,236,.75);
+	padding: 1em;
+	clear: both;
+	text-align: center;
+}
+
+#contact {
+	color: #404A4A;
+}
+
+/*@media only screen and (min-width: 1800px) {
+	.wrapper {
+		width: 1600px;
+	}
+} (to constrain how big your site's content gets)*/
+
+@media only screen and (max-width: 1110px) {
+	#title {
+		font-size: 2em;
+	}
+	#slogan {
+		font-size: 1.5em;
+	}
+	h2, h3 {
+		font-size: 1.5em;
+	}
+} /*(to reduce font size)*/
+
+@media only screen and (max-width: 860px) {
+	#aboutleft {
+		float: none;
+		width: 100%;
+	}
+	#aboutright {
+		float: none;
+		width: 100%;
+	}
+	nav a, #hero {
+		display: none;
+	}
+	#mobile {
+		display: block;
+	}
+	nav:hover a {
+		display: block;
+	}
+} /*(to stack About elements)*/
+
+@media only screen and (max-width: 580px) {
+	h3 {
+		font-size: 1em;
+	}
+}
