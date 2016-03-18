@@ -109,18 +109,20 @@ nav a:hover {
 #mobile {
 	display: none;
 }
-
-#rainbow_dragon_image {
+#rainbow_dragon {
+	background-color: #FFF67B;
+	color: #A68F7D;
+	position:relative;
+}
+#rainbow_dragon img {
 	float: left;
 	width: 25%;
 }
-
-#rainbow_dragon_title {
-	float: right;
-	width: 75%;
-	vertical-align: middle;
-	background-color: #FFF67B;
-	color: #A68F7D;
+#rainbow_dragon h3 {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
 }
 
 #inventor_image {
